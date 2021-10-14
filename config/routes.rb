@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   get "/game/:wildcard" => "params#game"
   get "/name/:wildcard" => "params#name"
   get "/sum/:num1/:num2" => "params#sum"
+
+  post "/guess_game" => "params#guess_game"
 end

@@ -1,0 +1,6 @@
+POST http://localhost:3000/guess_game.json
+content-type: application/json
+
+{
+  "number": "32"
+}
